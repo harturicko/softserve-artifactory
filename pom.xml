@@ -10,7 +10,11 @@
 
 
   <distributionManagement>
-    <!--Write code here-->
+       <repository>
+     <id>github</id>
+     <name>GitHub OWNER Apache Maven Packages</name>
+     <url>https://maven.pkg.github.com/harturicko/softserve-artifactory</url>
+   </repository>
   </distributionManagement>
 
   <properties>
